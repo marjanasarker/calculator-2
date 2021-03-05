@@ -42,11 +42,11 @@ while True:
             result=multiply(float(num1), float (num2))
         elif operator=="/":
             result=divide(float(num1), float (num2))
-        elif operator=="sq"
+        elif operator=="sq":
             result=square(float(num1))
-        elif operator=="cube"
+        elif operator=="cube":
             result=cube(float(num1))
-        elif operator=="mod"
+        elif operator=="mod":
             result=mod(float(num1), float(num2))
     print (result)
 #except ValueError:
